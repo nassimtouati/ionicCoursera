@@ -19,6 +19,7 @@ import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-htt
 import { HttpClientModule } from '@angular/common/http';
 
 import { baseURL } from '../shared/baseurl';
+import { FavoriteProvider } from '../providers/favorite/favorite';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { baseURL } from '../shared/baseurl';
     LeaderProvider,
     PromotionProvider,
     ProcessHttpmsgProvider,
-    { provide: 'BaseURL', useValue: baseURL }
+    { provide: 'BaseURL', useValue: baseURL },
+    FavoriteProvider
   ]
 })
 export class AppModule {}
