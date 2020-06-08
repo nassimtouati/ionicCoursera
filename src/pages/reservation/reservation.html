@@ -35,7 +35,8 @@
     </ion-item>
     <ion-item>
       <ion-label>Date and Time</ion-label>
-      <ion-datetime displayFormat="MMM DD, YYYY hh:mm A" pickerFormat="MMM DD, YYYY hh:mm A" formControlName="dateTime"></ion-datetime>
+      <ion-datetime displayFormat="MMM DD, YYYY hh:mm A" pickerFormat="MMM DD, YYYY hh:mm A" formControlName="dateTime">
+      </ion-datetime>
     </ion-item>
     <button ion-button type="submit" [disabled]="!reservation.valid">Reserve</button>
   </form>
