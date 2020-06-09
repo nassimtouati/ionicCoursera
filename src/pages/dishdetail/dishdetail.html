@@ -1,9 +1,15 @@
 <ion-header>
-
   <ion-navbar color="primary">
-    <ion-title>Dish Details</ion-title>
+    <ion-title>
+      Dish Details
+    </ion-title>
+    <ion-buttons right>
+      <!-- Here we use right -->
+      <button ion-button icon-only (click)="presentActionSheet()">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
-
 </ion-header>
 
 

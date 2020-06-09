@@ -31,6 +31,7 @@ export class ReservationPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad ReservationPage');
   }
+  
   dismiss() {
     this.viewCtrl.dismiss();
   }
