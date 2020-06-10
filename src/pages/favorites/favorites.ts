@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams, ItemSliding, ToastController, Load
 import { FavoriteProvider } from '../../providers/favorite/favorite';
 import { Dish } from '../../shared/dish';
 
+
 /**
  * Generated class for the FavoritesPage page.
  *
